@@ -2,6 +2,12 @@
 # Created by https://www.gitignore.io/api/node,composer,phpstorm
 # Edit at https://www.gitignore.io/?templates=node,composer,phpstorm
 
+### Sass ###
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
 ### Composer ###
 composer.phar
 /vendor/
