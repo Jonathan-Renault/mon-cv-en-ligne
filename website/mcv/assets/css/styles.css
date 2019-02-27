@@ -1,0 +1,784 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto');
+
+body{
+  font: 400 16px/1.3 'Roboto', Arial, sans-serif;
+  color: #110934;
+  background-color: #ECF0F5;
+}
+
+h1{
+  position: absolute;
+  left: -500000000000px;
+}
+
+h2 {
+  font-family: 'Arvo', sans-serif;
+  text-align: center;
+  font-size: 2em;
+  color: #fff;
+  margin: auto;
+}
+#wrapper {
+	/* width:100%; */
+	max-width: 800px;
+	margin: 0 auto;
+  text-align: center;
+}
+
+.wrapHF {
+	width:100%;
+	margin: auto;
+}
+
+/* header */
+header{
+  height: 200px;
+  background-color: #44B2AE;
+}
+
+header img {
+  float: left;
+  width: 80px;
+  display: inline-block;
+  margin-left: 2%;
+  margin-top: 1%;
+
+}
+
+header .titre {
+  vertical-align: middle;
+  margin: auto;
+  padding-top: 2px;
+}
+
+header .titre h2{
+  float: left;
+  font-size: 1.5em;
+  width: 83%;
+  display: inline-block;
+}
+
+header .bienvenue{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #fff;
+}
+
+header ul {
+  list-style-type: none;
+  margin: auto;
+}
+
+li a {
+    display: block;
+    color: #fff;
+    padding: 30px 16px 0 0;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+}
+
+/* Change the link color on hover */
+    li a:hover {
+    color: #eee;
+}
+
+
+/* barenav */
+.nav {
+  /* background-color: #BDCC6D; */
+  font: 1em sans-serif;
+
+}
+.nav ul{
+    display: table;
+    width: 700px;
+
+}
+
+.nav ul li{
+    display: table-cell;
+
+}
+
+/* titre page profil */
+.modif_vaccin h2 {
+  color: #44B2AE;
+}
+
+
+/* BODY */
+
+/* P.INDEX */
+
+.contenu{
+  margin-left: -2%;
+  padding: 0 50px;
+}
+
+.flexslider{
+  width: 48%;
+  float: left;
+  margin-left: 2%;
+  margin-top: 100px;
+/*
+  display: flex;
+  flex-direction: column;
+  justify-content: center; */
+}
+
+
+.inscription{
+  width: 48%;
+  float: right;
+  margin-top: 60px;
+  display: flex;
+}
+
+/* P.INDEX */
+/* INSCRIPTION */
+
+.inscription{
+  float: right;
+}
+
+.login-page {
+
+  width: 360px;
+  margin: 10% auto;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background-color: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form input, .formulaire input, .formulaire textarea, .form .radio {
+  outline: 0;
+  background-color: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  font-size: 14px;
+  resize: none;
+}
+
+.form .radio{
+  display: flex;
+}
+
+.form .radio label, .form .radio input {
+  margin: auto;
+}
+
+.form .button , .formulaire .button ,.modif_vaccin .button, .button_div .button {
+  padding-top: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  outline: 0;
+  background-color: #44B2AE;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+.button_div{
+  margin-bottom: 20px;
+}
+
+ .button_div.bla {
+   position: relative;
+ }
+
+ .button_div.bla a{
+
+   width:100%;
+   margin-left: -52%;
+   display: inline-block;
+   /* position: absolute;
+left: 50%;
+transform: translateX(-50%); */
+ }
+
+
+.form .button:hover,.form .button:active,.form .button:focus,
+.formulaire .button:hover,.formulaire .button:active,.formulaire .button:focus {
+  background-color: #50D1CC;
+}
+
+.form .message , .form .pwdoublie {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+
+.form .message a , .form .pwdoublie a{
+  color: #44B2AE;
+  text-decoration: none;
+}
+
+.form .message a:hover , .form .pwdoublie a:hover{
+  color: #50D1CC;
+  text-decoration: none;
+}
+
+.form .register-form {
+  display: none;
+}
+
+/* P.INDEX */
+/* COMMENTAIRES */
+
+.commentaires{
+  background-color: #FFFFFF;
+  /* max-width: 360px */
+  /* margin: 0 auto 100px; */
+  padding: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  float: left;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.comment-users {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.comment-users .commentaires .commentaire{
+  margin: 0 auto;
+  width: 25%;
+  float: right;
+}
+.comment-users h2{
+  color: #44B2AE;
+  margin-bottom: 20px;
+}
+
+.comment-users .commentaires .commentaire p:first-child{
+  color: #44B2AE;
+  font-size: 1.3em;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.comment-users .commentaires .commentaire p:last-child{
+  color: #44B2AE;
+  padding-top: 10px;
+  font-size: 0.7em;
+}
+
+/* P.CONTACT */
+/* FORM CONTACT */
+/* aussi dans index inscription */
+
+.contact h2 , .modif_profil h2, .modif_vaccin h2{
+  text-align: center;
+  font-size: 2.5em;
+  margin: 40px 0 40px 0;
+  color : #44B2AE;
+}
+/* P.PROFIL */
+/* DESCRIPTION */
+.description{
+  margin-bottom: 30px;
+}
+
+
+/* P.mdpoublie */
+/* dans .inscription */
+
+/* P.mdpoublienew */
+/* dans .inscription */
+
+/* P*modif_vaccin */
+/* aussi dans inscription */
+.modif_vaccin{
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.table_vaccin {
+  position: relative;
+  z-index: 1;
+  background-color: #FFFFFF;
+  max-width: 800px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.table_vaccin input, .table_vaccin input, .table_vaccin textarea, .table_vaccin .radio {
+  outline: 0;
+  background-color: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 70px;
+  font-size: 14px;
+  resize: none;
+}
+
+
+.table_vaccin th, .table_vaccin td{
+  border: 1px solid #44B2AE;
+  padding : 10px 20px;
+}
+
+.table_vaccin .enfant {
+  vertical-align:middle;
+  display:inline-block;
+}
+
+.bla{
+  /* margin-bottom: 30px; */
+  margin-left: 34%;
+  margin-bottom: 40px;
+}
+/* .center{
+margin:30%;
+} */
+
+
+.form .red{
+  background-color: #F44336;
+}
+
+.form .red:hover,.form .red:active,.form .red:focus {
+  background-color: #DE3B30;
+}
+
+/* footer Notre equipe */
+footer{
+  background-color: #50D1CC;
+  padding-top: 30px;
+}
+
+footer .titre_footer {
+  width: 40%;
+  margin: auto;
+}
+
+.wrapF {
+	width:60%;
+	margin: auto;
+}
+/* .zoom{
+margin-left: 13%;
+} */
+
+
+.photos:last-child {
+	padding-bottom: 2%;
+  float: right;
+}
+.photos::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.photos div {
+  background-color: #4bc5c0;
+	position: relative;
+	float: left;
+	width: 24%;
+	height: 25%;
+	margin-top: 30px;
+  padding-bottom: 20px;
+}
+
+.photos div:first-child {
+	margin-left: 2px;
+}
+
+.photo {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+  }
+
+  .zoom div img {
+    width: 100%;
+    background-color: red;
+  	transform: scale(0.8);
+  	transition: .3s ease-in-out;
+  }
+
+  .zoom div:hover img {
+  	transform: scale(0.9);
+  }
+
+  .photo p {
+      text-align: center;
+      font-weight: bold;
+      padding-top: 5px;
+      color: #fff;
+    }
+
+/* footer Legal */
+.copyright{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.copyright p{
+  text-align: center;
+  color: #fff;
+  font-size: 0.8em;
+}
+
+/* 404 */
+#notfound {
+  position: relative;
+  height: 100vh;
+}
+
+#notfound .notfound {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.notfound {
+  max-width: 520px;
+  width: 100%;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.notfound .notfound-404 {
+  position: relative;
+  height: 240px;
+}
+
+.notfound .notfound-404 h2 {
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 252px;
+  font-weight: 900;
+  margin: 0px;
+  text-transform: uppercase;
+  letter-spacing: -40px;
+  margin-left: -20px;
+  padding-top: 50px;
+  color: #44B2AE;
+}
+
+.notfound .notfound-404 h2 span {
+  text-shadow: -8px 0px 0px #B0E0E6;
+}
+
+.notfound .notfound-404 h3 {
+  font-family: 'Cabin', sans-serif;
+  position: relative;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0px;
+  color: #50d1cc;
+  letter-spacing: 3px;
+  padding-left: 6px;
+}
+
+.notfound h4 {
+  font-family: 'Cabin', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #50d1cc;
+  padding-top: 35px;
+  margin-bottom: 25px;
+}
+.notfound p {
+color: #50d1cc;
+text-decoration: none;
+font-family: fantasy;
+}
+
+.notfound p a{
+color: #18408B;
+text-decoration: none;
+font-family: fantasy;
+font-weight: bold;
+}
+
+
+ /*  */
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,800);
+
+/* body {
+  font-family: 'Open Sans';
+  font-size: 1.2em;
+  background-color: #eee;
+
+} */
+
+/* FAQ */
+
+.content {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+
+}
+
+.centerplease {
+  margin: 0 auto;
+  max-width: 270px;
+  font-size: 60px;
+  color: #44B2AE;
+  padding-top: 40px;
+}
+
+.question {
+  position: relative;
+  background-color: #79b2af;
+  margin: 0;
+  padding: 10px 10px 10px 50px;
+  display: block;
+  width:100%;
+  cursor: pointer;
+}
+
+.answers {
+  background-color: #dbd5bb;
+  padding: 0px 15px;
+  margin: 5px 0;
+  height: 0;
+  overflow: hidden;
+  z-index: -1;
+  position: relative;
+  opacity: 0;
+  -webkit-transition: .5s ease;
+  -moz-transition: .5s ease;
+  -o-transition: .5s ease;
+  transition: .5s ease;
+}
+
+.questions:checked ~ .answers{
+  height: auto;
+  opacity: 1;
+  padding: 15px;
+}
+
+.plus {
+  position: absolute;
+  margin-left: 10px;
+  z-index: 5;
+  font-size: 2em;
+  line-height: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.questions:checked ~ .plus {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.questions {
+  display: none;
+}
+
+@media (max-width : 550px){
+.modif_vaccin h2{
+  font-size: 1.5em;
+ }
+}
+
+/* responsive page 404 767 px */
+@media only screen and (max-width: 767px) {
+  .notfound .notfound-404 {
+    height: 200px;
+  }
+  .notfound .notfound-404 h2 {
+    font-size: 200px;
+  }
+}
+/* //responsive page 404 480px */
+@media only screen and (max-width: 480px) {
+  .notfound .notfound-404 {
+    height: 162px;
+  }
+  .notfound .notfound-404 h2 {
+    font-size: 162px;
+    height: 150px;
+    line-height: 162px;
+  }
+  .notfound h2 {
+    font-size: 16px;
+  }
+}
+
+/* responsive navigation menu */
+.slicknav_menu {
+  display:none;
+}
+
+@media screen and (max-width: 1050px) {
+  #menu {
+    display:none;
+
+  }
+  .slicknav_menu {
+    display:block;
+  }
+}
+
+
+/* responsive du titre */
+@media (max-width : 480px) {
+  header .titre{
+    font-size: 1em;
+  }
+}
+
+/* responsive du titre */
+
+
+/* responsive titre 1050px */
+@media (max-width : 1050px) {
+  header {
+    height: 140px;
+  }
+  header .titre {
+    padding-top: 20px;
+  }
+  .comment-users .commentaires .commentaire{
+    margin: 0 auto;
+    width: 50%;
+    float: right;
+  }
+}
+
+/* responsive bienvenue [user] */
+@media (max-width : 1050px) {
+  header .bienvenue{
+    position: static;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+}
+
+/* responsive */
+@media (max-width : 540px) {
+  header .bienvenue{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 0.8em;
+  }
+  .comment-users .commentaires .commentaire{
+    margin: 0 auto;
+    width: 100%;
+    float: right;
+  }
+}
+/* responsive header titre */
+@media (max-width : 540px) {
+  header .wrapHF .titre{
+    text-align: center;
+    margin-left: 50px;
+  }
+
+}
+/* responsive header img logo */
+@media (max-width : 540px) {
+  header .wrapHF img{
+    display: none;
+  }
+}
+/* responsive header  */
+@media (max-width : 520px) {
+  header {
+    height: 100px;
+  }
+  .photo p {
+      text-align: center;
+      font-weight: bold;
+      padding-top: 5px;
+      color: #fff;
+      font-size: 0.8em;
+    }
+}
+/* //responsive pour 1900px header taille */
+@media (min-width :1900px){
+  header{
+    height: 220px;
+  }
+}
+/* responsive slider et inscription */
+@media (max-width : 790px) {
+  .contenu .flexslider {
+    width: 98%;
+  }
+}
+
+@media (max-width : 790px) {
+  .contenu .inscription {
+    width: 98%;
+  }.photos div{
+    width: 48%;
+  }
+}
+@media (max-width :1060px){
+.comment-users .commentaires .commentaire{
+
+  margin: 0 20px 0 20px;
+  float: left;
+  width: 40%;
+ }
+}
+@media (max-width : 480px){
+  .photos div {
+    width: 98%;
+  } .wrapF .titre_footer h2 {
+    font-size: 2em;
+  } .modif_vaccin  {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width : 425px){
+  .bla a {
+    text-align: center;
+    font-size: 0.8em;
+  }
+}
